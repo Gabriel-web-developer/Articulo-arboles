@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+   background: green;
+}
+
+header {
+    background: #804000;
+    color: white;
+}
+
+
+h1 {
+  margin: 2.5px;
+padding: 3px;  
+}
+
+.header {
+    height: 60px;
+}
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    z-index: 5;
+}
+
+.menu__li {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border-bottom:1px solid #fff ;
+    background:#804000 ;
+    
+}
+
+.menu__li:hover {
+    background: white;
+    color: black;
+}
+
+#menu-bar:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+input {
+    display: none;
+}
+
+.nav label {
+    display: inline-block;
+    position: relative;
+    margin: 5px 6px;
+    font-size: 30px;
+}
+
+.icon-bar:hover {
+    cursor: pointer;
+}
+
+
+
+/*--------------Estilos banner-------------------*/
+
+
+.article-div img {
+    width: 60%;
+    margin: 6px;
+    float: left;
+    border: 3px solid #000;
+    margin-bottom: 0px;
+}
+
+
+.article-div {
+    background:#804000;
+    margin: 15px;
+    padding: 5px;
+    width: 80%;
+    margin: 30px auto auto auto;
+}
+
+
+/*------------------------Estilos- footer--------*/
+
+footer {
+    margin-top: 25px;
+    position:relative;
+    height: 80px;
+    background: #804000;
+    color: white;    
+    text-align: center;
+    display: block;
+}
+
+footer [class*="icon-"] {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 8px;
+    margin: 8px;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
